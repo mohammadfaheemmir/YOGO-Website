@@ -1,0 +1,136 @@
+@media (max-width: 800px) {
+    nav .mainMenu {
+        height: 100vh;
+        position: fixed;
+        top: 0px;
+        right: 0px;
+        left: 0px;
+        z-index: 10;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: var(--sec-color);
+        transition: top .5s ease 0s;
+        display: none;
+    }
+
+    nav .mainMenu .closeMenu {
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+
+    nav .openMenu {
+        display: block;
+    }
+
+    nav .mainMenu li a:hover {
+        background: none;
+        color: #cec9c9;
+        transition: .5s;
+    }
+
+    .icons i {
+        display: inline-block;
+        padding: 12px;
+    }
+
+    /* Header Section */
+
+    .header-section {
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    .left-header {
+        padding-top: 15px;
+        padding: 20px;
+    }
+
+    .left-header h2 {
+        font-size: 30px;
+    }
+
+    .left-header p {
+        font-size: 15px;
+    }
+
+    .header-btn button{
+        height: 30px;
+        width: 100px;
+        font-size: 12px;
+    }
+
+    .right-header img{
+        height: 350px;
+        width: 250px;
+    }
+
+    /* Our Services */
+
+    .services-heading {
+        width: 250px;
+    }
+
+    .services-heading h2 {
+        font-size: 20px;
+    }
+
+    .services-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .service-box {
+        width: 250px;
+        height: 350px;
+    }
+
+    /* Our Customers */
+
+    .our-customers {
+        flex-direction: column;
+        margin-top: 50px;
+        gap: 50px;
+        padding: 10px;
+    }
+
+    .left-customer-video img {
+        width: 250px;
+    }
+
+    .right-customer-data {
+        width: 250px;
+    }
+    
+    .right-customer-data h2 {
+        font-size: 25px;
+    }
+
+    .footer {
+        height: 60vh;
+    }
+
+    .footer h2 {
+        margin-top: 40px;
+        text-align: center;
+        padding: 10px;
+        font-size: 30px;
+    }
+
+}
+
+/* Slider */
+
+@media (max-width: 500px) {
+
+    .review-box {
+        height: 300px;
+    }
+
+    .card {
+        height: 300px;
+    }
+}
